@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Illustrated stone spires rising from mist">
+  <defs><linearGradient id="s" x2="0" y2="1"><stop stop-color="#29353a"/><stop offset=".56" stop-color="#566258"/><stop offset="1" stop-color="#b3a889"/></linearGradient><linearGradient id="m" x2="0" y2="1"><stop stop-color="#1c3032"/><stop offset="1" stop-color="#0b171a"/></linearGradient><filter id="b"><feGaussianBlur stdDeviation="32"/></filter></defs>
+  <path fill="url(#s)" d="M0 0h900v1100H0z"/>
+  <circle cx="660" cy="275" r="150" fill="#d8cda6" opacity=".35" filter="url(#b)"/>
+  <path d="m0 610 145-215 115 182 105-335 112 345 134-265 155 290 134-180v668H0z" fill="#45514c"/>
+  <path d="m0 740 130-115 144 110 155-305 145 300 165-220 161 225v365H0z" fill="#253b3b"/>
+  <path d="m0 830 170-80 110 45 130-105 145 110 155-60 190 80v280H0z" fill="url(#m)"/>
+  <path d="M0 850q250-85 450 0t450 0v250H0z" fill="#d9d4ba" opacity=".12" filter="url(#b)"/>
+  <path d="M0 1010q245-95 430 10 230-100 470 0v80H0z" fill="#0c1719"/>
+</svg>

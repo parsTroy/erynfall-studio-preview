@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Illustrated orange signal beam across an industrial skyline">
+  <defs><linearGradient id="s" x2="0" y2="1"><stop stop-color="#101b24"/><stop offset=".62" stop-color="#48504a"/><stop offset="1" stop-color="#936b46"/></linearGradient><linearGradient id="beam" x2="0" y2="1"><stop stop-color="#e3a96f" stop-opacity="0"/><stop offset=".6" stop-color="#e3a96f" stop-opacity=".38"/><stop offset="1" stop-color="#e3a96f" stop-opacity="0"/></linearGradient><filter id="b"><feGaussianBlur stdDeviation="36"/></filter></defs>
+  <path fill="url(#s)" d="M0 0h900v1100H0z"/>
+  <path d="m600 0-210 1000 300 0L720 0" fill="url(#beam)" filter="url(#b)"/>
+  <circle cx="550" cy="390" r="115" fill="#e5b277" opacity=".5" filter="url(#b)"/>
+  <path d="M0 760h82V480h32v280h55V590h95v170h35V425h50v335h58V545h62v215h72V310h47v450h62V510h75v250h50V440h74v320h45v340H0z" fill="#273238"/>
+  <path d="M0 850h105V645h40v205h94V715h65v135h126V560h58v290h94V660h55v190h93V590h80v260h100v250H0z" fill="#111e26"/>
+  <path d="M0 1000q200-70 430-30t470-35v165H0z" fill="#09141b"/>
+  <path d="M540 320v540" stroke="#efb67c" stroke-opacity=".6" stroke-width="3"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Illustrated dark mountain landscape beneath a glowing eclipse">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#080e13"/><stop offset=".52" stop-color="#26333b"/><stop offset="1" stop-color="#76654c"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#f7dc9f" stop-opacity=".92"/><stop offset=".35" stop-color="#c6a06e" stop-opacity=".35"/><stop offset="1" stop-color="#bd8b5b" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ground" x2="0" y2="1"><stop stop-color="#25363a"/><stop offset="1" stop-color="#080e12"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v900H0z"/>
+  <circle cx="1070" cy="345" r="330" fill="url(#light)"/>
+  <circle cx="1070" cy="345" r="108" fill="#e5d6af"/>
+  <circle cx="1064" cy="334" r="106" fill="#1a252c"/>
+  <circle cx="1070" cy="345" r="122" fill="none" stroke="#d0b48a" stroke-opacity=".23" stroke-width="3"/>
+  <path d="M0 565 130 495 245 535 365 410 490 510 610 440 740 550 865 390 1020 530 1185 430 1355 535 1510 435 1600 490v410H0z" fill="#344149" opacity=".52"/>
+  <path d="M0 655 150 575 300 635 470 495 620 610 755 535 930 650 1130 500 1290 610 1450 530 1600 600v300H0z" fill="#17272c"/>
+  <path d="M0 710 160 680 305 715 500 620 700 710 835 655 1040 750 1220 625 1400 720 1600 665v235H0z" fill="url(#ground)"/>
+  <path d="M0 780q260-85 480-10t440 30q310-82 680 8v92H0z" fill="#0c1519"/>
+  <path d="M0 845q290-80 515 0 240 55 495-20 290-70 590 35v40H0z" fill="#080e12"/>
+  <path d="m805 845 23-125 24-16 13 11 11 130z" fill="#050a0d"/>
+  <path d="m824 731-8-63 14-45 14 40-3 55z" fill="#050a0d"/>
+  <path d="m822 710-40 78 30-12 30-47 34 48 32 9-42-78z" fill="#050a0d"/>
+  <path d="m843 645 8-56 4 2-4 85" stroke="#080d0f" stroke-width="7"/>
+</svg>
