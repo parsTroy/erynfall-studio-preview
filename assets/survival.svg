@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Concept illustration of a deserted road through dark woods">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#0d1517"/><stop offset=".55" stop-color="#303c3d"/><stop offset="1" stop-color="#68706a"/></linearGradient>
+    <linearGradient id="road" x2="0" y2="1"><stop stop-color="#404b49"/><stop offset="1" stop-color="#111919"/></linearGradient>
+    <linearGradient id="mist" x2="0" y2="1"><stop stop-color="#a5b4a9" stop-opacity=".24"/><stop offset="1" stop-color="#a5b4a9" stop-opacity="0"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#d7caa7" stop-opacity=".6"/><stop offset="1" stop-color="#d7caa7" stop-opacity="0"/></radialGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v900H0z"/>
+  <circle cx="1205" cy="247" r="174" fill="url(#glow)"/>
+  <circle cx="1205" cy="247" r="50" fill="#bcc5b7" opacity=".58"/>
+  <path d="M0 470q390-135 750-28 380-120 850 0v458H0z" fill="#344543"/>
+  <path d="M0 550q380-130 730-45 425-120 870-32v427H0z" fill="#253531"/>
+  <g fill="#1a2928">
+    <path d="M890 510h80v90h-80zm92-45h110v135H982zm128 22h95v113h-95zm107-70h92v183h-92zm105 46h100v137h-100z"/>
+    <path d="m884 510 48-32 45 32zm92-45 61-35 65 35zm128 22 52-28 56 28zm105-70 55-31 53 31zm105 46 54-30 53 30z"/>
+  </g>
+  <path d="m884 510 48-32 45 32m-1-13 61-35 65 35m2 22 52-28 56 28m-3-70 55-31 53 31m-3 46 54-30 53 30" fill="none" stroke="#c7d4ce" stroke-width="7" opacity=".72"/>
+  <g fill="#172824">
+    <path d="m40 630 35-265 35 265zm70 0 42-333 42 333zm100 0 40-260 40 260zm74 0 48-365 48 365zm107 0 34-250 34 250zm68 0 54-330 54 330zm125 0 40-250 40 250zm92 0 30-218 30 218zm110 0 38-280 38 280zm95 0 50-350 50 350zm118 0 40-260 40 260zm101 0 52-390 52 390zm125 0 45-280 45 280zm105 0 39-330 39 330zm90 0 54-390 54 390zm125 0 39-280 39 280z"/>
+  </g>
+  <path d="M0 520h1600v190H0z" fill="url(#mist)"/>
+  <path d="M0 682q175-64 355-31 145 28 315-11l-50 68q-220 29-360 3Q100 687 0 738zm1600-11q-270-73-482-35-119 18-248 10l55 69q185-26 331 4 195 8 344 31z" fill="#b6c5bf" opacity=".72"/>
+  <path d="M0 700q400-105 670-60l100 20 100-20q350-40 730 50v210H0z" fill="#101b1b"/>
+  <path d="m763 606 74 0 365 294H360z" fill="url(#road)"/>
+  <path d="m735 640-60 62L260 900h100l403-294zm130 0 55 62 420 198h-139L837 606z" fill="#c2cec7" opacity=".67"/>
+  <path d="m796 610 8 0-50 290h-35zm24 0 8 0 74 290h-35z" fill="#7e8980" opacity=".3"/>
+  <path d="m770 815-55 85m110-85 61 85" stroke="#0a1112" stroke-width="7" opacity=".7"/>
+  <path d="M1160 580h145v85h-145zM1180 555h105l35 30h-175z" fill="#101b19"/>
+  <path d="M1190 606h18v24h-18zm71 0h18v24h-18z" fill="#d6c79c" opacity=".4"/>
+  <path d="M1135 655h200v13h-200z" fill="#0b1413"/>
+  <path d="M0 900h1600" stroke="#070d0e" stroke-width="80"/>
+</svg>
