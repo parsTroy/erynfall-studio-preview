@@ -93,3 +93,53 @@ main>section .wrap{width:calc(100% - 48px)}
 .hero-bottom{position:relative;left:auto;bottom:auto;transform:none;width:100%;padding:11px 24px;background:#101615;border-top:1px solid #3d4941}
 @media(max-width:650px){.hero-art{height:180px;object-position:center 67%}.hero-grid{padding:18px 16px}.hero-copy{display:block}.hero-copy .eyebrow{margin-bottom:12px}.hero-copy h1{font-size:clamp(38px,10vw,46px)}.hero-copy>p:not(.eyebrow){margin-top:14px}.hero-actions{margin-top:17px}.hero-bottom{padding:11px 16px}}
 .hero .hero-grid,.hero .hero-bottom{width:100%;margin:0}
+
+/* Console-era signal motif: small, composited motion over the existing concept art. */
+:root{--acid:#abd466;--console-glow:#83bb43}
+body{background-color:#070c09;background-image:repeating-linear-gradient(0deg,transparent 0 3px,#a8c58a08 4px)}
+.site-header,.site-footer,main>section{border-color:#3e523e}
+.site-header{background:#0b130d;box-shadow:0 0 30px #294e241f}
+.header-inner{position:relative;overflow:hidden}
+.header-inner:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(105deg,transparent 15%,#a9d5750d 50%,transparent 80%)}
+.brand-mark{border-color:var(--acid);box-shadow:0 0 10px #8ac94a66,inset 0 0 6px #8ac94a55}
+.brand-mark span{background:var(--acid)}
+.site-nav{background:#19271c;border-top-color:#445b3f}
+.site-nav a{position:relative;border-right-color:#3c503a;transition:background-color .18s,color .18s,box-shadow .18s}
+.site-nav a:before{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--acid);opacity:0;transform:scaleX(.3);transition:opacity .18s,transform .18s}
+.site-nav a:hover,.site-nav a:focus-visible,.site-nav a[aria-current=page]{background:#2a3d28;color:#eaf8dc;box-shadow:inset 0 0 18px #7db84925}
+.site-nav a:hover:before,.site-nav a:focus-visible:before,.site-nav a[aria-current=page]:before{opacity:1;transform:scaleX(1)}
+.hero{isolation:isolate;background:#08110b}
+.hero-art{filter:grayscale(.8) brightness(.65) contrast(1.16) sepia(.18)}
+.hero:before{content:"";position:absolute;z-index:1;inset:0 0 auto;height:270px;pointer-events:none;background:linear-gradient(90deg,#07100870,transparent 40%,#0710081a),repeating-linear-gradient(0deg,transparent 0 3px,#07100822 4px)}
+.signal-field{position:absolute;z-index:2;top:0;right:7%;width:270px;height:270px;display:grid;place-items:center;pointer-events:none;opacity:.78;filter:drop-shadow(0 0 16px #7cc84c66)}
+.signal-field span{grid-area:1/1;border-radius:50%;display:block}
+.signal-field__outer{width:235px;height:235px;border:1px solid #a9df7966;background:repeating-conic-gradient(from 15deg,#b1e47777 0 1deg,transparent 1deg 29deg);mask:radial-gradient(transparent 0 104px,#000 105px);animation:orbit 28s linear infinite}
+.signal-field__inner{width:168px;height:168px;border:1px solid #b1ed8f99;box-shadow:inset 0 0 28px #6eb43b44,0 0 16px #6eb43b33;animation:breath 6s ease-in-out infinite}
+.signal-field__core{width:82px;height:82px;background:radial-gradient(circle,#e2ffc2 0 5%,#8ecb54 8% 15%,#4a90387a 30%,#3873301c 68%,transparent 72%);box-shadow:0 0 36px #85d55088;animation:breath 6s ease-in-out infinite reverse}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes breath{50%{transform:scale(1.08);opacity:.68}}
+.hero-grid{background:linear-gradient(110deg,#132119,#1b2b20 64%,#111c15);border-top-color:#5b7650}
+.hero-grid:before{content:"";position:absolute;top:0;right:0;width:34%;height:100%;pointer-events:none;background:radial-gradient(circle at 75% 20%,#8bca4a1e,transparent 65%)}
+.hero h1 em,.page-hero h1 em,.detail-hero h1 em{color:#b5d590}
+.eyebrow.light,.hero-bottom span:first-child{color:#bcd6a7}
+.hero-bottom{background:#0d180f;border-top-color:#40563d}
+.button-accent,.button-dark{background:#9dc869;border-color:#b6e28a;color:#0a120a;box-shadow:inset 0 1px #e2ffc055}
+.button-accent:hover,.button-dark:hover,.button-accent:focus-visible,.button-dark:focus-visible{background:#c4e49d;box-shadow:0 0 20px #8cc45366}
+.feature-card,.game-image{border-color:#4e6948;transition:border-color .25s,box-shadow .25s}
+.feature-card:hover,.feature-card:focus-visible,.game-card:hover .game-image,.game-card:focus-visible .game-image{border-color:#a5d46c;box-shadow:0 0 24px #7bbc463b}
+.feature-card>img,.game-image img{transition:transform .65s ease,filter .65s ease}
+.feature-card:hover>img,.feature-card:focus-visible>img,.game-card:hover .game-image img,.game-card:focus-visible .game-image img{transform:scale(1.025);filter:grayscale(.65) brightness(.79) contrast(1.1)}
+.round-arrow{transition:background-color .2s,box-shadow .2s,transform .2s}
+.feature-card:hover .round-arrow,.feature-card:focus-visible .round-arrow{background:#a4d36d;color:#0b160c;box-shadow:0 0 18px #a5d46c99;transform:translate(2px,-2px)}
+.values-grid span,.footer-links strong{color:#afd579}
+.notice-band{background:#253b24;border-top-color:#5f8053}
+.page-hero,.detail-hero{overflow:hidden}
+.page-hero:after,.detail-hero:after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,transparent 0 3px,#06120824 4px)}
+.page-hero{position:relative}
+.page-hero .wrap,.detail-content{z-index:1;position:relative}
+.page-hero-games,.page-hero-studio,.page-hero-careers{background-image:linear-gradient(90deg,#071008f2,#1222199c),url('assets/survival.svg')}
+.detail-hero>img{filter:grayscale(.75) brightness(.7) sepia(.18)}
+.mobile-menu nav{background:#0e190f;border-color:#4b6745}
+.mobile-menu nav a[aria-current=page],.mobile-menu nav a:hover{color:#c5e9a0;background:#223422}
+@media(max-width:650px){.hero:before{height:180px}.signal-field{width:180px;height:180px;right:3%;opacity:.52;transform:scale(.65)}.hero-grid:before{display:none}}
+@media(prefers-reduced-motion:reduce){.signal-field__outer,.signal-field__inner,.signal-field__core{animation:none}.feature-card>img,.game-image img,.round-arrow{transition:none}}
